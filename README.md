@@ -1,5 +1,11 @@
 # 福井に関する観光アプリ
 
+## みんなで作った観光アプリをみてみる
+
+[Issues](https://github.com/code4fukui/fukui-kanko/issues) のコメントにアプリURL記載あり （感想、コメント、歓迎！）
+
+## 観光アプリのつくりかた
+
 1. [ES-Jam](https://code4fukui.github.io/htmlprac/)を開く
 2. 下記プログラムを元に作る (参考、[はじめてのJavaScript](https://github.com/code4fukui/slide/blob/main/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AEJavaScript.pdf))
 ```
