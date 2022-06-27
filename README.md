@@ -32,3 +32,8 @@ location = "https://github.com/code4fukui/fukui-kanko/";
 9. "source" を "none" から "main" に変更し、 "Save" を押す
 10. 表示されるURLがアプリのURLになる （1分ほど待つと有効になる)
 11. このリポジトリの[Issues](https://github.com/code4fukui/fukui-kanko/issues)へぜひご紹介ください！
+
+## 便利アプリ
+
+- [キーワードで探すステキ写真](https://code4fukui.github.io/find47/search.html)
+- [地図から探すステキ写真](https://code4fukui.github.io/find47/map.html)
