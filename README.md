@@ -1,4 +1,4 @@
-# 福井に関する観光アプリ
+# 福井の観光アプリ
 
 ## みんなで作った観光アプリをみてみる
 
@@ -37,3 +37,8 @@ location = "https://github.com/code4fukui/fukui-kanko/";
 
 - [キーワードで探すステキ写真](https://code4fukui.github.io/find47/search.html)
 - [地図から探すステキ写真](https://code4fukui.github.io/find47/map.html)
+
+## 関連イベント
+
+2022-07-16 土曜日 [福井県presents みんなでつくる稼ぐ観光ハッカソン | Peatix](https://ideathon-hackathon-fukui.peatix.com/)
+
