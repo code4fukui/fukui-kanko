@@ -2,7 +2,7 @@
 
 ## みんなで作った観光アプリをみてみる
 
-[Issues](https://github.com/code4fukui/fukui-kanko/issues) のコメントにアプリURL記載あり （感想、コメント、歓迎！）
+[みんなの福井の観光アプリ - Issues](https://github.com/code4fukui/fukui-kanko/issues) のコメントにアプリURL記載あり （感想、コメント、歓迎！）
 
 ## 観光アプリのつくりかた
 
