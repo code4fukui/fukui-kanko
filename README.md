@@ -1,5 +1,7 @@
 # Fukui Tourism App
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A community-created tourism app for Fukui.
 
 ## Demo
