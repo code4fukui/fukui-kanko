@@ -1,44 +1,47 @@
-# みんなでつくる福井の観光アプリ
+# Fukui Tourism App
 
-## みんなで作った観光アプリをみてみる
+A community-created tourism app for Fukui.
 
-[みんなの福井の観光アプリ - Issues](https://github.com/code4fukui/fukui-kanko/issues) のコメントにアプリURL記載あり （感想、コメント、歓迎！）
+## Demo
+Check out the apps created by the community in the [Issues](https://github.com/code4fukui/fukui-kanko/issues) (feedback and comments are welcome!).
 
-## 観光アプリのつくりかた
+## Features
+- Create your own tourism app using the provided program
+- Discover useful tourism apps like "Find great photos by keyword" and "Find photos on a map"
 
-1. [ES-Jam](https://code4fukui.github.io/htmlprac/)を開く
-2. 下記プログラムを元に作る (参考、[はじめてのJavaScript](https://github.com/code4fukui/slide/blob/main/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AEJavaScript.pdf))
+## Usage
+1. Open the [ES-Jam](https://code4fukui.github.io/htmlprac/) site
+2. Use the following program as a reference (see also [Introduction to JavaScript](https://github.com/code4fukui/slide/blob/main/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AEJavaScript.pdf)):
 ```
 <script type="module">
 import { bg, show } from "https://js.sabae.cc/egadv.js";
 
 await bg();
-await show("はろー");
+await show("Hello");
 await bg(3972);
-let a = await show("ここどこ？", ["福井", "石川", "富山"]);
-if (a == "福井") {
-  await show("正解！");
+let a = await show("Where am I?", ["Fukui", "Ishikawa", "Toyama"]);
+if (a == "Fukui") {
+  await show("Correct!");
 }
-await show("ぜひ続きを作ってね！");
+await show("Please continue to build the app!");
 location = "https://github.com/code4fukui/fukui-kanko/";
 </script>
 ```
-3. 自分のGitHubアカウントで新しくリポジトリを作る (アカウントを持っていない方 → [GitHubはじめのいっぽ](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BD.pdf))
-4. "Add File" → "Create new file"
-5. 名前を "index.html" に変更
-6. 作ったプログラムを貼り付け
-7. 下にスクロールして緑色のボタン "Commit new file" を押す
-8. 右上方の "Settings" (隠れている場合は、 ... を押す) → 左メニューの "Pages"
-9. "source" を "none" から "main" に変更し、 "Save" を押す
-10. 表示されるURLがアプリのURLになる （1分ほど待つと有効になる)
-11. このリポジトリの[Issues](https://github.com/code4fukui/fukui-kanko/issues)へぜひご紹介ください！
+3. Create a new repository on your GitHub account (if you don't have one, see [First Step on GitHub](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BD.pdf))
+4. Add a new file, name it "index.html"
+5. Paste the program you created
+6. Scroll down and click the green "Commit new file" button
+7. Go to "Settings" (if hidden, click the "..." button) -> "Pages" on the left menu
+8. Change the "source" from "none" to "main", then click "Save"
+9. The displayed URL is the URL of your app (it may take about a minute to become active)
+10. Please introduce your app in the [Issues](https://github.com/code4fukui/fukui-kanko/issues) of this repository!
 
-## 便利アプリ
+## Useful Apps
+- [Find great photos by keyword](https://code4fukui.github.io/find47/search.html)
+- [Find photos on a map](https://code4fukui.github.io/find47/map.html)
 
-- [キーワードで探すステキ写真](https://code4fukui.github.io/find47/search.html)
-- [地図から探すステキ写真](https://code4fukui.github.io/find47/map.html)
+## Related Event
+2022-07-16 Saturday [Fukui Prefecture presents Everybody's Tourism Hackathon | Peatix](https://ideathon-hackathon-fukui.peatix.com/)
 
-## 関連イベント
-
-2022-07-16 土曜日 [福井県presents みんなでつくる稼ぐ観光ハッカソン | Peatix](https://ideathon-hackathon-fukui.peatix.com/)
-
+## License
+MIT License
