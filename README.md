@@ -1,44 +1,88 @@
-# みんなでつくる福井の観光アプリ
+# fukui-kanko
 
-## みんなで作った観光アプリをみてみる
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-[みんなの福井の観光アプリ - Issues](https://github.com/code4fukui/fukui-kanko/issues) のコメントにアプリURL記載あり （感想、コメント、歓迎！）
+A community project for creating simple, interactive tourism web apps for Fukui, Japan.
 
-## 観光アプリのつくりかた
+This repository provides the tools and a platform for anyone to easily build and share small, visual-novel-style web applications. Tell a story, create a quiz, or guide users through your favorite spots in Fukui!
 
-1. [ES-Jam](https://code4fukui.github.io/htmlprac/)を開く
-2. 下記プログラムを元に作る (参考、[はじめてのJavaScript](https://github.com/code4fukui/slide/blob/main/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AEJavaScript.pdf))
-```
+## Community Showcase
+
+Discover a gallery of apps created by the community. Feel free to try them out, leave feedback, or get inspired!
+
+➡️ **[View Community Apps in Issues](https://github.com/code4fukui/fukui-kanko/issues)**
+
+## Getting Started: Create Your Own App
+
+Follow these steps to build and publish your own Fukui tourism app.
+
+### Step 1: Write Your App's Story
+
+Create a new file named `index.html` and paste the code below. This example is a simple interactive quiz. You can test and modify your code live using the [ES-Jam](https://code4fukui.github.io/htmlprac/) web tool.
+
+For an introduction to the language, see [Introduction to JavaScript](https://github.com/code4fukui/slide/blob/main/%E3%81%AF%E3%81%98%E3%82%81%E3%81%A6%E3%81%AEJavaScript.pdf).
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Fukui App</title>
+</head>
+<body>
+
 <script type="module">
 import { bg, show } from "https://js.sabae.cc/egadv.js";
 
-await bg();
-await show("はろー");
-await bg(3972);
-let a = await show("ここどこ？", ["福井", "石川", "富山"]);
-if (a == "福井") {
-  await show("正解！");
+// Set a background image (ID from https://find47.jp/)
+await bg(3972); // Tojinbo Cliffs
+
+// Show a message
+await show("Hello from Fukui!");
+
+// Ask a question with choices
+let answer = await show("Where am I?", ["Fukui", "Ishikawa", "Toyama"]);
+
+// Check the answer and show a result
+if (answer == "Fukui") {
+  await show("Correct!");
+} else {
+  await show("Nope, this is in Fukui!");
 }
-await show("ぜひ続きを作ってね！");
-location = "https://github.com/code4fukui/fukui-kanko/";
+
+await show("Let's continue exploring!");
+
+// Redirect to the main project page
+location.href = "https://github.com/code4fukui/fukui-kanko/";
 </script>
+
+</body>
+</html>
 ```
-3. 自分のGitHubアカウントで新しくリポジトリを作る (アカウントを持っていない方 → [GitHubはじめのいっぽ](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BD.pdf))
-4. "Add File" → "Create new file"
-5. 名前を "index.html" に変更
-6. 作ったプログラムを貼り付け
-7. 下にスクロールして緑色のボタン "Commit new file" を押す
-8. 右上方の "Settings" (隠れている場合は、 ... を押す) → 左メニューの "Pages"
-9. "source" を "none" から "main" に変更し、 "Save" を押す
-10. 表示されるURLがアプリのURLになる （1分ほど待つと有効になる)
-11. このリポジトリの[Issues](https://github.com/code4fukui/fukui-kanko/issues)へぜひご紹介ください！
 
-## 便利アプリ
+### Step 2: Publish with GitHub Pages
 
-- [キーワードで探すステキ写真](https://code4fukui.github.io/find47/search.html)
-- [地図から探すステキ写真](https://code4fukui.github.io/find47/map.html)
+1.  Create a new repository on your GitHub account. (If you're new to GitHub, follow this [First Step on GitHub](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BD.pdf) guide).
+2.  Add the `index.html` file you created to the new repository.
+3.  In your repository's **Settings**, navigate to the **Pages** tab.
+4.  Under "Build and deployment," select the source branch (e.g., `main`) and click **Save**.
+5.  GitHub will publish your site and provide you with a URL (e.g., `https://your-username.github.io/your-repo-name/`). It may take a minute to become active.
 
-## 関連イベント
+### Step 3: Share Your Creation
 
-2022-07-16 土曜日 [福井県presents みんなでつくる稼ぐ観光ハッカソン | Peatix](https://ideathon-hackathon-fukui.peatix.com/)
+Once your app is live, share it with the community!
 
+- **[Create a new Issue](https://github.com/code4fukui/fukui-kanko/issues/new)** in this repository.
+- Include the title of your app and the URL provided by GitHub Pages.
+
+## Examples & Tools
+
+Explore these helpful applications for finding images and location data for your own project.
+
+-   **[Keyword Photo Search](https://code4fukui.github.io/find47/search.html)** - Find photos of locations across Japan by keyword.
+-   **[Map Photo Explorer](https://code4fukui.github.io/find47/map.html)** - Discover photos by browsing a map.
+
+## License
+
+MIT License
