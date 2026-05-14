@@ -67,7 +67,7 @@ location.href = "https://github.com/code4fukui/fukui-kanko/";
 2.  Add the `index.html` file you created to the new repository.
 3.  In your repository's **Settings**, navigate to the **Pages** tab.
 4.  Under "Build and deployment," select the source branch (e.g., `main`) and click **Save**.
-5.  GitHub will publish your site and provide you with a URL (e.g., `https://your-username.github.io/your-repo-name/`). It may take a minute to become active.
+5.  GitHub will publish your site and provide you with a URL (e.g., `~~https://your-username.github.io/your-repo-name/`~~ *(unavailable)*). It may take a minute to become active.
 
 ### Step 3: Share Your Creation
 

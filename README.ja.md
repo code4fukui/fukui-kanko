@@ -65,7 +65,7 @@ location.href = "https://github.com/code4fukui/fukui-kanko/";
 2. 作成した `index.html` ファイルを新しいリポジトリに追加します。
 3. リポジトリの **Settings** から **Pages** タブに移動します。
 4. 「Build and deployment」の下にあるソースブランチ（例: `main`）を選択し、**Save** をクリックします。
-5. GitHubによってサイトが公開され、URL（例: `https://your-username.github.io/your-repo-name/`）が発行されます。有効になるまで数分かかる場合があります。
+5. GitHubによってサイトが公開され、URL（例: `~~https://your-username.github.io/your-repo-name/`~~ *(unavailable)*）が発行されます。有効になるまで数分かかる場合があります。
 
 ### ステップ3: 作成したアプリを共有する
 
